@@ -1,4 +1,4 @@
 demo-server/config.js
 demo-server/node_modules
 
-node_modules
+# don't forget to ignore your client node modules!

@@ -1,0 +1,12 @@
+[
+    {
+        "__v": 0, // this one is added by mongo, don't worry about it for now
+        "_id": "5d1628d372a085e397dbb7ad", // mongo generates id's, just use fake ones for frontend testing
+        "first_name": "twt"
+    },
+    {
+        "__v": 0, // this one is added by mongo, don't worry about it for now
+        "_id": "5d162b098fc020e5dc8fc31f", // mongo generates id's, just use fake ones for frontend testing
+        "first_name": "rer"
+    }
+]

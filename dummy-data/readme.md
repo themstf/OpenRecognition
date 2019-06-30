@@ -1,6 +1,5 @@
 this is for developing the frontend
 
-you can write JSON files of dummy data that match your schemas and require this folder into your build with your build-script
+you can write JSON files of dummy data that match your schemas and call on these files while developing your frontend.  doing this allows the frontend and the backend to develop at their own pace
 
-now your frontend can make calls to these files instead of the api while developing components
-
+when writing your dummy can put in whatever you want for __v & _id so long as they're there, mongo will set those values.  you'll need to think about all the other keys and values.
