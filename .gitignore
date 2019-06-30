@@ -1,4 +1,4 @@
-demo-apis-server/config.js
-demo-apis-server/node_modules
+demo-api-server/config.js
+demo-api-server/node_modules
 
 # don't forget to ignore your client node modules!
