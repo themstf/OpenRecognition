@@ -2,9 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import the_api from "./demo-dummy-api/get.json";
-import book from "./demo-dummy-api/books/id/get.json";
-
 
 function App() {
   return (
@@ -23,8 +20,8 @@ function App() {
           Learn React
         </a>
         <p>
-          {the_api}  <br />
-          {book[0].title}
+          {require("./demo-dummy-api/get.json")}  <br />
+          {require("./demo-dummy-api/books/id/get.json")[0].title}
         </p>
       </header>
     </div>
