@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import the_api from "./demo-dummy-api/get.json";
+import book from "./demo-dummy-api/books/id/get.json";
+
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,10 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          {the_api}  <br />
+          {book[0].title}
+        </p>
       </header>
     </div>
   );

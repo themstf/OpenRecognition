@@ -1,5 +1,0 @@
-{
-    "__v": 0, // this one is added by mongo, don't worry about it for now
-    "_id": "5d18dff4ab75a5311958edce", // mongo generates id's, just use fake ones for frontend testing
-    "title": "montgomery"
-}
