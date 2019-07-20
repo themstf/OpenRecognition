@@ -110,7 +110,7 @@ controller.post_id_update = (req, res) => {
       emadateapprovingil:dateapproving,
       daterejecting: daterejecting,
       active: active,
-      user1approval: user1approval
+      user1approval: user1approval,
       user2approval: user2approval
     };
 

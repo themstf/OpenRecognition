@@ -47,7 +47,7 @@ const profiles_schema = mongoose.Schema(
     },
 
     photo:{
-      type: URL,
+      type: String,
       required: true
     }
   }

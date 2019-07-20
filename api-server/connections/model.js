@@ -27,7 +27,7 @@ const connections_schema = mongoose.Schema(
     },
 
     active:{
-      type: Boolean
+      type: Boolean,
       required:true
     },
 
